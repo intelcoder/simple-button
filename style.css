@@ -1,0 +1,74 @@
+.simpleButton{
+  padding: 15px 30px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s;
+
+  color: white;
+  background-color: #ea0649;
+  border: 1px solid #ea0649;
+
+  &:hover{
+    color: #ea0649;
+    background-color: white;
+    border: 1px solid white;
+  }
+}
+
+.full{
+  display: block;
+  width: 100%;
+}
+.half{
+  display: inline-block;
+  width: 50%;
+  margin: 0 auto;
+}
+
+/* ALIGN */
+.floatRight{
+  float: right
+}
+.floatLeft{
+  float: left;
+}
+.floatNone{
+  float: none;
+}
+
+/* COLORS */
+.blue{
+  color: white;
+  background-color: #023448;
+  border: 1px solid #023448;
+
+  &:hover{
+    color: #023448;
+    background-color: white;
+    border: 1px solid white;
+  }
+}
+
+.lightBlue{
+  color: white;
+  background-color: #7f90a1;
+  border: 1px solid #7f90a1;
+
+  &:hover{
+    color: #ea0649;
+    background-color: white;
+    border: 1px solid white;
+  }
+}
+
+.whiteBorder{
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+
+  &:hover{
+    color: #ea0649;
+    background-color: white;
+    // border: 1px solid white;
+  }
+}
