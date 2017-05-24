@@ -26,5 +26,5 @@ SimpleButton.propTypes = {
 
 export default SimpleButton
 /*
-Learning git tag
+Learning git tag v2
 */
